@@ -1,6 +1,6 @@
 # TFTP Client
 
-A powerful and stylish TFTP client with Loguru and Click.
+Simple and Powerful TFTP Client.
 
 ## Features
 - **RFC Support**: 

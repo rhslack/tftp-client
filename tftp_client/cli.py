@@ -19,7 +19,7 @@ DEFAULT_BLOCK_SIZE = 512
 def show_banner():
     banner = pyfiglet.figlet_format("TFTP Client", font="slant")
     click.echo(click.style(banner, fg="cyan", bold=True))
-    click.echo(click.style("A powerful and stylish TFTP client with Loguru", fg="yellow"))
+    click.echo(click.style("Simple and Powerful TFTP Client.", fg="yellow"))
     click.echo("-" * 60)
 
 def send_rrq(sock, server_addr, filename, mode="octet", options=None):

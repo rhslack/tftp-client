@@ -1,0 +1,17 @@
+[project]
+name = "tftp-client"
+version = "0.1.0"
+description = "A powerful and stylish TFTP client with Loguru and Click"
+authors = [
+    {name = "Fabio Felici", email = "fabio.felici96c@gmail.com"},
+]
+dependencies = ["loguru>=0.7.3", "pyfiglet>=1.0.4", "click>=8.3.1"]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+tftp-client = "tftp_client.cli:cli"
+
+[tool.pdm]
+distribution = true
